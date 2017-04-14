@@ -1,0 +1,30 @@
+{
+  "name": "no-ip",
+  "version": "1.0.0",
+  "description": "Noip.com unofficial DUC client build in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roccomuso/no-ip.git"
+  },
+  "keywords": [
+    "no-ip",
+    "client",
+    "duc",
+    "node",
+    "dns"
+  ],
+  "author": "Rocco Musolino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roccomuso/no-ip/issues"
+  },
+  "homepage": "https://github.com/roccomuso/no-ip#readme",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "validator": "^7.0.0"
+  }
+}
