@@ -1,7 +1,7 @@
 {
   "name": "no-ip",
   "version": "1.0.0",
-  "description": "Noip.com unofficial DUC client build in Node.js",
+  "description": "Noip.com unofficial Dynamic DNS update client built in Node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,6 +26,7 @@
   "dependencies": {
     "axios": "^0.16.1",
     "debug": "^2.6.3",
-    "validator": "^7.0.0"
+    "validator": "^7.0.0",
+    "yargs": "^7.1.0"
   }
 }
