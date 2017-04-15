@@ -4,7 +4,7 @@
   "description": "Noip.com unofficial Dynamic DNS update client built in Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && nsp check"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,9 @@
     "debug": "^2.6.3",
     "validator": "^7.0.0",
     "yargs": "^7.1.0"
+  },
+  "devDependencies": {
+    "nsp": "^2.6.3",
+    "standard": "^10.0.2"
   }
 }
