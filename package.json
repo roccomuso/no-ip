@@ -25,6 +25,7 @@
   "homepage": "https://github.com/roccomuso/no-ip#readme",
   "dependencies": {
     "axios": "^0.16.1",
+    "debug": "^2.6.3",
     "validator": "^7.0.0"
   }
 }
