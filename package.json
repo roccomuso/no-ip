@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Noip.com unofficial Dynamic DNS update client built in Node.js",
   "main": "index.js",
+  "bin": {
+    "no-ip": "./bin/cli.js"
+  },
   "scripts": {
     "test": "standard && nsp check"
   },
