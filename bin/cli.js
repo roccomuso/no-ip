@@ -9,11 +9,11 @@ var noip = new NoIP({
   pass: argv.password
 })
 
-noip.on('error', function(err){
+noip.on('error', function (err) {
   console.log(err)
 })
 
-noip.on('success', function(isChanged, ip){
+noip.on('success', function (isChanged, ip) {
   console.log(isChanged, ip)
 })
 
@@ -21,11 +21,11 @@ noip.on('success', function(isChanged, ip){
 
 noip.setOffline(argv.offline)
 
-if (argv.ip){
+if (argv.ip) {
   noip.setIp(argv.ip)
 }
 
-if (argv.start){
+if (argv.start) {
   noip.start(argv.interval)
   console.log('No-ip client started...')
 } else {
