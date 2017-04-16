@@ -47,13 +47,15 @@ noip.update() // Manual update, you can also provide a custom IP address
 
 ## Methods
 
-`.update([ip])`: Send an update request.
+`.update([ip])`: Send an update request. Optionally you can provide a custom IP.
 
 `.start([ms])`: Start an automatic renewal every 1h by default or provide a custom ms.
 
 `.stop()`: Stop the automatic update.
 
 `.setOffline([boolean])`: Sets the current host to offline status. Offline settings are an Enhanced / No-IP Plus feature. You should call the `update` method after this flag have been set.
+
+`.setIp([ip])`: Set a custom IP Address for the update requests.
 
 ## Standalone usage
 
