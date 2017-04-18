@@ -1,4 +1,4 @@
-# no-ip [![NPM Version](https://img.shields.io/npm/v/no-ip.svg)](https://www.npmjs.com/package/no-ip)
+# no-ip [![Build Status](https://travis-ci.org/roccomuso/no-ip.svg?branch=master)](https://travis-ci.org/roccomuso/no-ip) [![NPM Version](https://img.shields.io/npm/v/no-ip.svg)](https://www.npmjs.com/package/no-ip)
 Noip.com unofficial Dynamic DNS update client built in Node.js
 
 [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
