@@ -1,7 +1,7 @@
-# no-ip [![Build Status](https://travis-ci.org/roccomuso/no-ip.svg?branch=master)](https://travis-ci.org/roccomuso/no-ip) [![NPM Version](https://img.shields.io/npm/v/no-ip.svg)](https://www.npmjs.com/package/no-ip)
-Noip.com unofficial Dynamic DNS update client built in Node.js
+# no-ip [![Build Status](https://travis-ci.org/roccomuso/no-ip.svg?branch=master)](https://travis-ci.org/roccomuso/no-ip) [![NPM Version](https://img.shields.io/npm/v/no-ip.svg)](https://www.npmjs.com/package/no-ip) [![bitHound Overall Score](https://www.bithound.io/github/roccomuso/no-ip/badges/score.svg)](https://www.bithound.io/github/roccomuso/no-ip) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+Noip.com Dynamic DNS update client built in Node.js. **It makes easy to remote access your connected devices**!
+
 
 ## Install
 
