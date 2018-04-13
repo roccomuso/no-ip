@@ -33,7 +33,7 @@
     "yargs": "^7.1.0"
   },
   "devDependencies": {
-    "nsp": "^2.6.3",
-    "standard": "^10.0.2"
+    "nsp": "^2.8.1",
+    "standard": "^10.0.3"
   }
 }
