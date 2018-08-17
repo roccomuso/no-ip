@@ -29,7 +29,6 @@
   "dependencies": {
     "axios": "^0.16.1",
     "debug": "^2.6.3",
-    "validator": "^7.0.0",
     "yargs": "^7.1.0"
   },
   "devDependencies": {
