@@ -27,8 +27,9 @@
   },
   "homepage": "https://github.com/roccomuso/no-ip#readme",
   "dependencies": {
-    "axios": "^0.16.1",
-    "debug": "^2.6.3",
+    "axios": "^0.18.0",
+    "debug": "^3.1.0",
+    "ms": "^2.1.1",
     "yargs": "^7.1.0"
   },
   "devDependencies": {
