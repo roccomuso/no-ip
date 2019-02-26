@@ -1,7 +1,7 @@
 {
   "name": "no-ip",
   "version": "1.0.2",
-  "description": "Noip.com unofficial Dynamic DNS update client built in Node.js",
+  "description": "Noip.com Dynamic DNS update client built in Node.js",
   "main": "index.js",
   "bin": {
     "no-ip": "./bin/cli.js"
