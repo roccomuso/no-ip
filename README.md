@@ -1,7 +1,6 @@
 # no-ip [![Build Status](https://travis-ci.org/roccomuso/no-ip.svg?branch=master)](https://travis-ci.org/roccomuso/no-ip) [![NPM Version](https://img.shields.io/npm/v/no-ip.svg)](https://www.npmjs.com/package/no-ip) [![Dependency Status](https://david-dm.org/roccomuso/no-ip.png)](https://david-dm.org/roccomuso/no-ip) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) <span class="badge-patreon"><a href="https://patreon.com/roccomuso" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 
-Noip.com Dynamic DNS update client built in Node.js. **It makes easy to remote access your connected devices**!
-
+> [Noip.com](https://noip.com) Dynamic DNS update client built in Node.js. **It makes easy to remote access your connected devices**!
 
 ## Install
 
@@ -78,7 +77,7 @@ You can enable it setting the `DEBUG` env var to `no-ip` before the app starts:
 
 ## Author
 
-Rocco Musolino
+Rocco Musolino ([@roccomuso](https://twitter.com/roccomuso))
 
 ## License
 

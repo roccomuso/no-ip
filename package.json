@@ -20,8 +20,8 @@
     "node",
     "dns"
   ],
-  "author": "Rocco Musolino",
-  "license": "ISC",
+  "author": "Rocco Musolino (@roccomuso)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/roccomuso/no-ip/issues"
   },
