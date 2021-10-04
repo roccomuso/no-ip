@@ -9,7 +9,8 @@
   "scripts": {
     "check": "npm install && npm outdated",
     "update": "ncu -u && npm update && npm install",
-    "test": "standard"
+    "test": "standard",
+    "lint": "eslint.js"
   },
   "repository": {
     "type": "git",
