@@ -1,21 +1,28 @@
-# no-ip [![Build Status](https://travis-ci.org/roccomuso/no-ip.svg?branch=master)](https://travis-ci.org/roccomuso/no-ip) [![NPM Version](https://img.shields.io/npm/v/no-ip.svg)](https://www.npmjs.com/package/no-ip) [![Dependency Status](https://david-dm.org/roccomuso/no-ip.png)](https://david-dm.org/roccomuso/no-ip) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) <span class="badge-patreon"><a href="https://patreon.com/roccomuso" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
+<span align="center">
+
+# NoIP
+
+<a href="https://www.npmjs.com/package/noip"><img title="npm version" src="https://badgen.net/npm/v/noip?icon=npm&label" ></a>
+<a href="https://www.npmjs.com/package/noip"><img title="npm downloads" src="https://badgen.net/npm/dt/noip?label=downloads" ></a>
 
 > [Noip.com](https://noip.com) Dynamic DNS update client built in Node.js. **It makes easy to remote access your connected devices**!
 
+</span>
+
 ## Install
 
-The easiest way to get **no-ip** is with npm:
+The easiest way to get **noip** is with npm:
 
-    $ npm install no-ip --save
+    $ npm install noip --save
 
 or having it globally installed and used as a standalone tool:
 
-    $ npm install -g no-ip
+    $ npm install -g noip
 
 ## Example usage
 
 ```javascript
-var NoIP = require('no-ip')
+var NoIP = require('noip')
 
 var noip = new NoIP({
   hostname: 'hello-world.ddns.net',
@@ -60,20 +67,20 @@ noip.update() // Manual update, you can also provide a custom IP address
 
 If used standalone, I recommend you to start it with some process manager, like [PM2](https://github.com/Unitech/pm2).
 
-    $ no-ip -h hello-world.ddns.net -u hello -p s3cr3t -s
+    $ noip -h hello-world.ddns.net -u hello -p s3cr3t -s
 
 That start automatic DNS renewal once an hour.
 To see supported parameters and usage examples just type:
 
-    $ no-ip --help
+    $ noip --help
 
 
 # Debug
 
 This module makes use of the node [DEBUG](https://github.com/visionmedia/debug) module.
-You can enable it setting the `DEBUG` env var to `no-ip` before the app starts:
+You can enable it setting the `DEBUG` env var to `noip` before the app starts:
 
-    $ DEBUG=no-ip
+    $ DEBUG=noip
 
 ## Author
 

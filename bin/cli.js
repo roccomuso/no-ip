@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-var argv = require('../lib/argv')
-var NoIP = require('../lib/no-ip')
+import { hostname as _hostname, username, password, offline, ip as _ip, start, interval } from '../lib/argv'
+import NoIP from '../lib/no-ip'
 
-var noip = new NoIP({
-  hostname: argv.hostname,
-  user: argv.username,
-  pass: argv.password
+const noip = new NoIP({
+  hostname: _hostname,
+  user: username,
+  pass: password
 })
 
 noip.on('error', function (err) {
@@ -19,14 +19,14 @@ noip.on('success', function (isChanged, ip) {
 
 /* CLI Flow */
 
-noip.setOffline(argv.offline)
+noip.setOffline(offline)
 
-if (argv.ip) {
-  noip.setIp(argv.ip)
+if (_ip) {
+  noip.setIp(_ip)
 }
 
-if (argv.start) {
-  noip.start(argv.interval)
+if (start) {
+  noip.start(interval)
   console.log('No-ip client started...')
 } else {
   noip.update()
